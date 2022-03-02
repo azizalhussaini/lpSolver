@@ -4,21 +4,34 @@ The software needs the following inputs from the user:
 
 Variables:
 
-	Enter all the variables, separated by comma. The variable type is fixed to non-negative 
+	x1,x2,x3,x4,y1,y2,y3,y4
 
 variables.
 	
 Objective Type:
 
-	Select the objective type.
+	minimize
 	
 Objective Function:
 
-	Enter the objective function using +, -, * symbols.
+	6x1+5x2+6x3+5x4+1000y1+600y2+600y3+600y4
 	
 Constraints:
 
-	Enter constraints line by line. The constraints should have all the variables on the LEFT hand 
+	21x1+21x2+9x3+21x4>=12000
+	 x1<=10000y1
+	 x2<=10000y2
+	 x3<=10000y3
+	 x4<=10000y4
+	 y1>=0
+	 y2>=0
+	 y3>=0
+	 y4>=0
+	 y1<=1
+	 y2<=1
+	 y3<=1
+	 y4<=1
+	 
 
 side and the constant on the RIGHT hand side. Following symbols can be used for the constraints:
 	
